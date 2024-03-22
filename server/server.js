@@ -1,4 +1,4 @@
-const SpotifyAPIController = require('./src/api/SpotifyAPIController.js')
+const SpotifyAPIController = require('./src/controllers/SpotifyAPIController.js')
 const dotenv = require('dotenv').config();
 const express = require('express');
 

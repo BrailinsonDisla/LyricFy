@@ -1,0 +1,47 @@
+:root {
+    font-size: 12px;
+    font-family: 'Anta';
+}
+
+.Navbar {
+    display: flex;
+    height: 100vh;
+    width: 6rem;
+    justify-content: center;
+    overflow: hidden;
+    color: hsl(250, 100%, 10%);
+    background-color: hsl(150, 50%, 50%);
+}
+
+.NavbarContainer {
+    display: flex;
+    margin: 1rem 0 1rem 0.5rem;
+    padding: 1em 0 1em 0;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+    /* justify-content: flex-start; */
+}
+
+.NavbarIcon {
+    margin: 0;
+    width: 3em;
+}
+
+.NavbarLink {
+    list-style: none;
+    margin: 1em 0;
+    padding: 0;
+    text-align: center;
+    /* background-color: yellow; */
+}
+
+.NavbarLink:last-child {
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.NavbarText {
+    margin: 0;
+}
+
